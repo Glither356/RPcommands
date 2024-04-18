@@ -1,0 +1,26 @@
+name: RolePlayCommands
+version: '${project.version}'
+main: org.blackwhite.glither.rp.Rp
+api-version: 1.15
+
+commands:
+  gme:
+    usage: /gme <Пукаит>
+    aliases:
+      - Gme
+      - GlobalMe
+      - glm
+    description: ГлобалМи
+  try:
+    usage: /try <Удачно/Неудачно> <Пукнул с подливой>
+    aliases:
+      - попытка
+      - tring
+    description: Удача
+  me:
+    usage: /me <Сообщение>
+    aliases:
+      - mes
+      - action
+    description: Действие
+
